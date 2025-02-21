@@ -154,7 +154,9 @@ nav ul li a {
 }
 
 .projetBox {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-size: cover;
     background-position: center;
     height: 250px;
@@ -169,13 +171,11 @@ nav ul li a {
     height: 180px;
 }
 .projetBox p {
-    position: absolute;
     font-size: 25px;
     padding: 8px 15px;
     font-size: 22px;
     font-weight: bold;
     position: absolute;
-    top: 0;
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }

@@ -187,7 +187,6 @@ nav ul li a {
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
-
     .projetBox {
         width: 100%;
         max-width: 280px;
@@ -240,7 +239,7 @@ a {
     font-size: 1.8em;
     font-weight :bolder;
     color: gray;
-    margin: 20px;
+    margin: 50px;
 }
 .lien {
     margin: 20px;
@@ -251,6 +250,11 @@ a {
     font-family: "Anton", serif;
     font-weight: 200;
     color: aqua;
+}
+
+.boxD {
+    text-align: center;
+    margin: 0 50px;
 }
 
 .projetS {
@@ -306,12 +310,16 @@ a {
 /*------------------------footer -----------------------  */
 footer {
     background-color: black;
-    padding: 80px;
+    padding: 50px;
     margin-top: auto;
 }
 .footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.titrefooter {
+    margin: 30px;
 }
 

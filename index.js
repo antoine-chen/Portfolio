@@ -14,14 +14,22 @@ document.addEventListener("scroll", function () {
 // Effet au survol des boîtes de projets
 const projetBoxes = document.querySelectorAll(".projetBox");
 projetBoxes.forEach((box) => {
+    const imgP = box.querySelector(".imgP"); 
     box.addEventListener("mouseenter", () => {
-        box.style.transform = "scale(1.05)";
+        box.style.transform = "scale(1.2)";
         box.style.transition = "transform 0.3s ease";
-        box.style.boxShadow = "0 8px 16px rgba(0, 0, 0, 0.3)";
+        box.style.boxShadow = "0 0 30px 10px rgba(255, 255, 255, 0.8)";
+        if (imgP) {
+            imgP.style.transition = "filter 0.3s ease";
+            imgP.style.filter = "blur(2px)";
+        }
     });
     box.addEventListener("mouseleave", () => {
         box.style.transform = "scale(1)";
-        box.style.boxShadow = "4px 4px 15px 3px rgba(0, 0, 0, 0.2)";
+        imgP.style.boxShadow = "none";
+        if (imgP) {
+            imgP.style.filter = "none";
+        }
     });
 });
 

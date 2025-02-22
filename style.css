@@ -252,7 +252,7 @@ a {
 }
 
 .boxD {
-    text-align: center;
+    width: 600px;
     margin: 0 50px;
 }
 
@@ -297,10 +297,19 @@ a {
     display: flex;
     flex-direction: column-reverse;
 }
+.fonc ul {
+    margin: 20px 40px;
+}
+
 .fonD {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: 800;
+}
+
+.fonD ul {
+    width: 700px;
 }
 
 .imgPF {
@@ -316,10 +325,7 @@ a {
     display: flex;
     justify-content: center;
 }
-.fonc ul {
-    margin: 20px 40px;
 
-}
 .gain ul {
     text-align: center;
     margin: 20px;

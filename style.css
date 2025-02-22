@@ -70,8 +70,13 @@ nav ul li a {
 .aboutme {
     margin: 60px 30px;
     display: flex;
-    gap: 40px;
+    gap: 80px;
+    justify-content: center;
     align-items: center;
+}
+
+.aboutme .desciptionMoi {
+    width: 700px;
 }
 
 @media screen and (max-width: 768px) {
@@ -181,7 +186,7 @@ nav ul li a {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .containProjets {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -224,6 +229,8 @@ a {
     text-decoration-thickness: 2px;
 }
 /*------------------------Projets section -----------------------  */
+
+/*bouton retour */
 .retour img {
     height: 20px;
     width: 20px;
@@ -232,24 +239,16 @@ a {
     display: flex;
     gap: 5px;
     align-items: center;
-    margin: 30px 0 0 20px;
+    margin: 60px 0 0 20px;
 }
+
+/* deuxieme partie de la des pages projets */
 
 .titrep {
     font-size: 1.8em;
     font-weight :bolder;
     color: gray;
-    margin: 50px;
-}
-.lien {
-    margin: 20px;
-    font-weight: bold;
-}
-.lien span {
-    font-weight: bold;
-    font-family: "Anton", serif;
-    font-weight: 200;
-    color: aqua;
+    margin: 70px 50px 30px 50px;
 }
 
 .boxD {
@@ -260,9 +259,7 @@ a {
 .projetS {
     height: 400px;
     width: 600px;
-}
-.projetS {
-    margin: 20px;
+    margin: 20px 50px 20px 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px;
 }
@@ -284,16 +281,65 @@ a {
 }
 .logiciel p {
     text-align: center;
+    font-weight:800;
+}
+/* deuxieme partie de la des pages projets */
+
+.projetSDeux {
+    height: 300px;
+    width: 500px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px;
 }
 
+.fonc {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.fonD {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+}
+
+.imgPF {
+    display: flex;
+    justify-content:center;
+}
+.gain {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.gain .imgPG {
+    display: flex;
+    justify-content: center;
+}
 .fonc ul {
-    margin: 20px;
+    margin: 20px 40px;
+
 }
 .gain ul {
+    text-align: center;
     margin: 20px;
+    font-weight: 800;
 }
 
-@media screen and (max-width: 915px) {
+.lien {
+    margin: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-size: medium;
+}
+.lien span {
+    font-weight: bold;
+    font-family: "Anton", serif;
+    font-weight: 200;
+    color: aqua;
+}
+
+@media screen and (max-width: 1050px) {
     .projetS {
         height: 300px;
         width: 500px;
@@ -305,9 +351,23 @@ a {
     }
 }
 
-
+@media screen and (max-width: 1050px) {
+    .fonD {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .imgPF {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 /*------------------------footer -----------------------  */
+
+
 footer {
     background-color: black;
     padding: 50px;

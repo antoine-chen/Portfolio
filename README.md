@@ -1,1 +1,1 @@
-J'ai réalisé mon premier portfolio ci dessus en 14 h (2 jours) : https://antoine-chen.github.io/Portfolio/
+J'ai réalisé mon premier portfolio voici le lien et le code ci dessus : https://antoine-chen.github.io/Portfolio/

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+/* les réglages de base  */
 * {
     list-style: none;
     text-decoration: none;
@@ -13,6 +13,8 @@
 body {
     background-color: #1d212a; 
 }
+
+/* navbar du site  */
 
 .logo {
     margin-left: 20px;
@@ -93,16 +95,38 @@ nav ul li a {
 
 /*------------------------deuxieme section -----------------------  */
 
+/* main titre du site, je me suis aider d'internet */
+
 .titre {
-    color: #ffffff;
+    font-size: 2.5rem; /* Taille du texte */
     font-weight: bold;
-    font-size: 2.5em;
-    margin: 100px 0 50px 50px;
-    font-family: "Roboto Condensed", serif;
-    font-optical-sizing: auto;
     text-transform: uppercase;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
+    margin: 100px 0 60px 100px;
+  
+    background: linear-gradient(45deg, #1de9b6, #4a148c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  
+    text-shadow: 0 0 10px rgba(77, 242, 215, 0.5),
+                 0 0 20px rgba(74, 20, 140, 0.4);
+  
+    animation: fadeInSlideRotate 1.5s ease-out forwards,
+               pulseGlow 2.5s infinite alternate ease-in-out;
+  }
+  
+  @keyframes pulseGlow {
+    0% {
+      text-shadow: 0 0 10px rgba(77, 242, 215, 0.5),
+                   0 0 20px rgba(74, 20, 140, 0.4);
+    }
+    100% {
+      text-shadow: 0 0 20px rgba(77, 242, 215, 0.9),
+                   0 0 30px rgba(74, 20, 140, 0.7);
+    }
+  }
+
 .technologies {
     margin: 70px auto;
     display: grid;
@@ -137,16 +161,20 @@ nav ul li a {
 
 /*------------------------troisieme section -----------------------  */
 
-.titreProjet {
-    font-size: 1.8em;
+.titremainProjet {
+    color: #ffffff;
     font-weight: bold;
+    font-size: 2em;
+    margin: 100px 0 60px 100px;
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    text-transform: uppercase;
     text-align: center;
-    color: gray;
-    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .containProjets {
-    margin: 50px;
+    margin:100px;
     display: flex;
     gap: 50px;
     justify-content: center;
@@ -164,8 +192,8 @@ nav ul li a {
     justify-content: center;
     background-size: cover;
     background-position: center;
-    height: 250px;
-    width: 350px;
+    height: 300px;
+    width: 400px;
     opacity: 0.85;
     border-radius: 10px;
     box-shadow: 4px 4px 15px 3px;
@@ -195,7 +223,7 @@ nav ul li a {
     .projetBox {
         width: 100%;
         max-width: 280px;
-        height: 200px;
+        height: 180px;
     }
     .projetBox p {
         font-size: 18px;
@@ -229,6 +257,15 @@ a {
     text-decoration-thickness: 2px;
 }
 /*------------------------Projets section -----------------------  */
+
+/* troisieme type de titre du site */
+.titreProjet {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+    letter-spacing: 1px;
+}
 
 /*bouton retour */
 .retour img {

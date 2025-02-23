@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +14,9 @@
                 <p>CAntoine</p>
             </div>
             <ul>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Technologies</a></li>
-                <li><a href="#">Projets</a></li>
+                <li><a href="#aboutmenav">About me</a></li>
+                <li><a href="#technologiesnav">Technologies</a></li>
+                <li><a href="#projetnav">Projets</a></li>
             </ul>
             <div>
                 <a href="https://www.linkedin.com/in/antoinechen/">
@@ -29,7 +29,7 @@
         </nav>
     </header>
 
-    <h2 class="titre">À propos de moi </h2>
+    <h2 id="aboutmenav" class="titre">À propos de moi </h2>
     <div class="aboutme">
         <div class="desciptionMoi">
             <p>Je m'appelle Antoine et je suis passionné par l'informatique depuis quelques années maintenant . Mon objectif est de devenir développeur Full Stack afin de pouvoir intervenir sur l'ensemble du processus de création d'applications web, aussi bien côté front-end que back-end.</p>
@@ -40,12 +40,8 @@
     </div>
     
     <main>
-        <h2 class="titre">Technologies</h2>	
+        <h2 id="technologiesnav" class="titre">Technologies</h2>	
         <section class="technologies">
-            <div class="containtech">
-                <img class="imgtech" src="page1/java.webp" alt="">
-                <p>Java</p>
-            </div>
             <div class="containtech">
                 <img class="imgtech" src="page1/html.png" alt="">
                 <p>HTML</p>
@@ -53,14 +49,6 @@
             <div class="containtech">
                 <img class="imgtech" src="page1/css.png" alt="">
                 <p>CSS</p>
-            </div>
-            <div class="containtech">
-                <img class="imgtech" src="page1/python.png" alt="">
-                <p>Python</p>
-            </div>
-            <div class="containtech">
-                <img class="imgtech" src="page1/c.png" alt="">
-                <p>C</p>
             </div>
             <div class="containtech">
                 <img class="imgtech" src="page1/javascript.webp" alt="">
@@ -71,6 +59,22 @@
                 <p>PHP</p>
             </div>
             <div class="containtech">
+                <img class="imgtech" src="page1/java.webp" alt="">
+                <p>Java</p>
+            </div>
+            <div class="containtech">
+                <img class="imgtech" src="page1/junit.png" alt="">
+                <p>JUnit</p>
+            </div>
+            <div class="containtech">
+                <img class="imgtech" src="page1/python.png" alt="">
+                <p>Python</p>
+            </div>
+            <div class="containtech">
+                <img class="imgtech" src="page1/c.png" alt="">
+                <p>C</p>
+            </div>
+            <div class="containtech">
                 <img class="imgtech" src="page1/angular.png" alt="">
                 <p>Angular</p>
             </div>
@@ -79,20 +83,49 @@
                 <p>SQL</p>
             </div>
             <div class="containtech">
+                <img class="imgtech" src="page1/mysql.png" alt="">
+                <p>MySQL</p>
+            </div>
+            <div class="containtech">
+                <img class="imgtech" src="page1/postgresql.png" alt="">
+                <p>PostgreSQL</p>
+            </div>
+            <div class="containtech">
                 <img class="imgtech" src="page1/github.png" alt="">
                 <p>Github</p>
+            </div>
+            <div class="containtech">
+                <img class="imgtech" src="page1/git.png" alt="">
+                <p>Git</p>
+            </div>
+            <div class="containtech">
+                <img class="imgtech" src="page1/bash.png" alt="">
+                <p>Bash</p>
+            </div>
+            <div class="containtech">
+                <img class="imgtech" src="page1/canva.jpg" alt="">
+                <p>Canva</p>
             </div>
             <div class="containtech">
                 <img class="imgtech" src="page1/trello.png" alt="">
                 <p>Trello</p>
             </div>
+            <div class="containtech">
+                <img class="imgtech" src="page1/intellij.png" alt="">
+                <p>Intellij</p>
+            </div>
+            <div class="containtech">
+                <img class="imgtech" src="page1/vscode.webp" alt="">
+                <p>VS code</p>
+            </div>
+
         </section>
 
 <!-- -------------------------------projet--------------------------------- -->
-        <h2 class="titre">Mes projets</h2>
+        <h2 id="projetnav" class="titre">Mes projets</h2>
 
         <h2 class="titremainProjet">Projets web</h2>
-        <section class="projetsweb">
+        <section>
             <div class="containProjets">
                 <a class="jo projetBox" href ="jo.html">
                     <img class="imgP" src="projets/jo.jpg" alt="">
@@ -105,15 +138,15 @@
                 <a class="bk projetBox" href="burgerking.html">
                     <img class="imgP" src="projets/burgerKing.jpg" alt="">
                 </a>
-                <a class="youtube projetBox" >
+                <a class="youtube projetBox" href="#projetnav" >
                     <img class="imgP" src="projets/youtube.png" alt="">
                     <p>Prochainement</p>
                 </a>
             </div>
         </section>
 
-        <h2 class="titremainProjet">Projets développement</h2>
-        <section class="projetdev">
+        <h2 id="projetdev" class="titremainProjet">Projets développement</h2>
+        <section>
             <div class="containProjets">
                 <a class="echec projetBox" href="echec.html">
                     <img class="imgP" src="projets/echec.jpg" alt="">
@@ -127,21 +160,21 @@
                     <img class="imgP" src="projets/pokemon.jpg" alt="">
                     <p>Pokemon</p>
                 </a>
-                <a class="projetBox" >
+                <a class="projetBox" href="#projetnav">
                     <img class="imgP" class="imgP" src="projets/interro.png" alt="">
                     <p>Prochainement</p>
                 </a>
             </div>
         </section>
 
-        <h2 class="titremainProjet">projets bases de données</h2>
-        <section class="projetsbd">
+        <h2 id="projetsbd" class="titremainProjet">projets bases de données</h2>
+        <section>
             <div class="containProjets">
                 <a class="WJ projetBox" href="weJeux.html">
                     <img class="imgP" src="projets/bd.jpg" alt="">
                     <p>WeJeux</p>
                 </a>
-                <a class="projetBox" >
+                <a class="projetBox" href="#projetnav">
                     <img class="imgP" src="projets/interro.png" alt="">
                     <p>Prochainement</p>
                 </a>
@@ -159,7 +192,7 @@
                     <li>Numéro de téléphone : 07 67 00 99 72</li>
                 </ul>
             </div>
-            <div>
+            <div class="logof">
                 <a href="https://www.linkedin.com/in/antoinechen/">
                     <img class="contactlogo" src="page1/linkedin.png" alt="">
                 </a>

@@ -50,6 +50,7 @@ nav ul li a {
     nav {
         flex-direction: column;
         align-items: center;
+
     }
     nav ul {
         flex-direction: column;
@@ -76,9 +77,12 @@ nav ul li a {
     justify-content: center;
     align-items: center;
 }
+.about-me p {
+    font-size: 1rem; 
+}
 
 .aboutme .desciptionMoi {
-    width: 700px;
+    max-width: 700px;
 }
 
 @media screen and (max-width: 768px) {
@@ -90,6 +94,9 @@ nav ul li a {
         width: 250px;
         height: 250px;
     }
+    .about-me p {
+        font-size: 0.9rem;
+      }
 }
 
 
@@ -98,7 +105,7 @@ nav ul li a {
 /* main titre du site, je me suis aider d'internet */
 
 .titre {
-    font-size: 2.5rem; /* Taille du texte */
+    font-size: 2.5rem; 
     font-weight: bold;
     text-transform: uppercase;
     margin: 100px 0 60px 100px;
@@ -112,7 +119,7 @@ nav ul li a {
     text-shadow: 0 0 10px rgba(77, 242, 215, 0.5),
                  0 0 20px rgba(74, 20, 140, 0.4);
   
-    animation: fadeInSlideRotate 1.5s ease-out forwards,
+    animation: fadeInSlideRotate 0.7s ease-out forwards,
                pulseGlow 2.5s infinite alternate ease-in-out;
   }
   
@@ -128,10 +135,10 @@ nav ul li a {
   }
 
 .technologies {
-    margin: 70px auto;
+    margin: 0px auto;
     display: grid;
     gap: 15px;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     max-width: 90%;
     text-align: center;
 }
@@ -152,10 +159,24 @@ nav ul li a {
     margin: 10px 0 30px 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .imgtech {
         height: 60px;
         width: 60px;
+    }
+}
+
+/* titre sur telephone  */
+
+@media screen and (max-width: 480px) {
+    .titre {
+        font-size: 2em;
+    }
+    .titremainProjet {
+        font-size: 1em;
+    }
+    .titrep {
+        font-size: 1em;
     }
 }
 
@@ -165,7 +186,7 @@ nav ul li a {
     color: #ffffff;
     font-weight: bold;
     font-size: 2em;
-    margin: 100px 0 60px 100px;
+    margin: 100px 60px ;
     font-family: "Roboto Condensed", serif;
     font-optical-sizing: auto;
     text-transform: uppercase;
@@ -230,6 +251,12 @@ nav ul li a {
         padding: 5px 10px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .containProjets {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+}
 /* -----------------------------js---------------------------------*/
 /* Effet de scroll */
 section {
@@ -256,7 +283,7 @@ a {
     text-decoration-color: #00ffff;
     text-decoration-thickness: 2px;
 }
-/*------------------------Projets section -----------------------  */
+/*------------------------Projets section ( dans les box) -----------------------  */
 
 /* troisieme type de titre du site */
 .titreProjet {
@@ -279,7 +306,6 @@ a {
     margin: 60px 0 0 20px;
 }
 
-/* deuxieme partie de la des pages projets */
 
 .titrep {
     font-size: 1.8em;
@@ -320,6 +346,118 @@ a {
     text-align: center;
     font-weight:800;
 }
+@media screen and (max-width: 1350px) {
+    .presentationP {
+        display: flex;
+    }
+
+    .descriptionP .boxD {
+        max-width: 450px;
+    }
+
+    .projetS {
+        height: 400px;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    /* deuxieme partie des projets box */
+
+    .fonc , .gain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fonD ul, .gain ul li {
+        text-align: center;
+        font-size: 15px;
+        max-width: 600px;
+    }
+
+    .imgPF .projetSDeux, .imgPG .projetSDeux, .fonD .projetSDeux  {
+        height: 300px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .presentationP {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descriptionP .boxD {
+        max-width: 450px;
+    }
+
+    .projetS {
+        height: 350px;
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    /* deuxieme partie des projets box */
+
+    .fonc , .gain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fonc .fonD, .fonc .imgPF, .gain .imgPG  {
+        display: flex;
+        flex-direction: column;
+    }
+    .fonD ul, .gain ul li {
+        text-align: center;
+        font-size: 15px;
+        max-width: 600px;
+    }
+
+    .imgPF .projetSDeux, .imgPG .projetSDeux, .fonD .projetSDeux  {
+        height: 300px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .presentationP {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descriptionP .boxD {
+        max-width: 320px;
+    }
+
+    .projetS {
+        height: 200px;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    /* deuxieme partie des projets box */
+
+    .fonc , .gain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fonc .fonD, .fonc .imgPF, .gain .imgPG  {
+        display: flex;
+        flex-direction: column;
+    }
+    .fonD ul, .gain ul li {
+        text-align: center;
+        font-size: 10px;
+        max-width: 300px;
+    }
+
+    .imgPF .projetSDeux, .imgPG .projetSDeux, .fonD .projetSDeux  {
+        height: 150px;
+        width: 350px;
+    }
+}
+
 /* deuxieme partie de la des pages projets */
 
 .projetSDeux {
@@ -382,31 +520,7 @@ a {
     color: aqua;
 }
 
-@media screen and (max-width: 1050px) {
-    .projetS {
-        height: 300px;
-        width: 500px;
-    }
-    .presentationP {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
-@media screen and (max-width: 1050px) {
-    .fonD {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .imgPF {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
 
 /*------------------------footer -----------------------  */
 
@@ -414,7 +528,7 @@ a {
 footer {
     background-color: black;
     padding: 50px;
-    margin-top: auto;
+    margin: 0 auto;
 }
 .footer {
     display: flex;
@@ -425,4 +539,15 @@ footer {
 .titrefooter {
     margin: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logof {
+        margin: 30px;
+    }
+}
+
 

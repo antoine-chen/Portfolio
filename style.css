@@ -434,6 +434,16 @@ a {
         width: 320px;
         margin: 0 auto;
     }
+    .logiciel {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .logiciel div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
     /* deuxieme partie des projets box */
 

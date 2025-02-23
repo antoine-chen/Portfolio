@@ -527,7 +527,7 @@ a {
 
 footer {
     background-color: black;
-    padding: 50px;
+    padding: 60px;
     margin: 0 auto;
 }
 .footer {
@@ -538,6 +538,13 @@ footer {
 
 .titrefooter {
     margin: 30px;
+}
+.copi {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+    background-color: black;
 }
 
 @media screen and (max-width: 768px) {

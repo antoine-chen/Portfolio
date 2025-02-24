@@ -22,9 +22,6 @@ GitHub Pages : Hébergement du site en ligne. <br>
  
 # 🔧 Installation et utilisation
 
-## 🔧 Installation
-
-
 1. Clonez le dépôt :
    ```bash
    git clone https://github.com/antoine-chen/Portfolio.git
@@ -32,4 +29,4 @@ GitHub Pages : Hébergement du site en ligne. <br>
 2. Ouvrir le fichier index.html dans ce dossier 
 
 # 🌐  Hébergement en ligne
-Voici le lien du portfolio et le code ci dessus : https://antoine-chen.github.io/Portfolio/
+## Voici le lien du portfolio et le code ci dessus : https://antoine-chen.github.io/Portfolio/

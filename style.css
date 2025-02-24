@@ -77,8 +77,9 @@ nav ul li a {
     justify-content: center;
     align-items: center;
 }
-.about-me p {
-    font-size: 1rem; 
+.desciptionMoi p {
+    font-size: 20px; 
+    font-weight: 500;
 }
 
 .aboutme .desciptionMoi {
@@ -296,14 +297,20 @@ a {
 
 /*bouton retour */
 .retour img {
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
 }
 .retour {
     display: flex;
     gap: 5px;
     align-items: center;
     margin: 60px 0 0 20px;
+    font-size: 15px;
+}
+
+.retour p {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
@@ -335,6 +342,9 @@ a {
 .descriptionP {
     margin: 0 15px;
 }
+.descriptionP .boxD {
+    font-size: 20px;
+}
 .logiciel {
     display: flex;
     margin: 30px;
@@ -352,7 +362,7 @@ a {
     }
 
     .descriptionP .boxD {
-        max-width: 450px;
+        max-width: 550px;
     }
 
     .projetS {
@@ -485,6 +495,9 @@ a {
 .fonc ul {
     margin: 20px 40px;
 }
+.fonc ul li {
+    font-size: 20px;
+}
 
 .fonD {
     display: flex;
@@ -505,6 +518,9 @@ a {
     display: flex;
     flex-direction: column-reverse;
 }
+.gain ul li {
+    font-size: 20px;
+}
 
 .gain .imgPG {
     display: flex;
@@ -522,6 +538,10 @@ a {
     font-weight: bold;
     text-align: center;
     font-size: medium;
+}
+
+.lien p {
+    font-size: 18px;
 }
 .lien span {
     font-weight: bold;
@@ -546,6 +566,10 @@ footer {
     align-items: center;
 }
 
+.infof {
+    font-size: 18px;
+}
+
 .titrefooter {
     margin: 30px;
 }
@@ -559,7 +583,7 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    font-size: 15px;
+    font-size: 18px;
     margin: 30px auto;
 
 } 

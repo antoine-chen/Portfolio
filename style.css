@@ -549,6 +549,21 @@ footer {
 .titrefooter {
     margin: 30px;
 }
+
+.footer .infof {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; 
+}
+.cv {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 15px;
+    margin: 30px auto;
+
+} 
+
 .copi {
     text-align: center;
     font-size: 20px;

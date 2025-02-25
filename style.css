@@ -217,7 +217,7 @@ nav ul li a {
     height: 300px;
     width: 400px;
     opacity: 0.85;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 4px 4px 15px 3px;
 }
 .projetBox {
@@ -225,6 +225,7 @@ nav ul li a {
     max-width: 280px;
     height: 180px;
 }
+
 .projetBox p {
     font-size: 25px;
     padding: 8px 15px;

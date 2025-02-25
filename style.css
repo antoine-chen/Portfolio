@@ -392,6 +392,7 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
+    
     .presentationP {
         display: flex;
         flex-direction: column;
@@ -431,15 +432,20 @@ a {
 }
 
 @media screen and (max-width: 480px) {
+    .titrep {
+        font-size: 22px;
+        margin: 30px 0;
+        text-align: center;
+    }
     .presentationP {
         display: flex;
         flex-direction: column;
     }
 
     .descriptionP .boxD {
-        max-width: 320px;
+        max-width: 270px;
+        font-size: 14px;
     }
-
     .projetS {
         height: 200px;
         width: 320px;
@@ -467,15 +473,18 @@ a {
         display: flex;
         flex-direction: column;
     }
-    .fonD ul, .gain ul li {
+    .fonD ul , .gain ul  {
         text-align: center;
-        font-size: 10px;
-        max-width: 300px;
+        max-width: 280px;
+        font-weight: normal;
+    }
+    .fonD .sizeD li , .gain .sizeD li{
+        font-size: 14px;
     }
 
     .imgPF .projetSDeux, .imgPG .projetSDeux, .fonD .projetSDeux  {
         height: 150px;
-        width: 320px;
+        width: 300px;
     }
 }
 

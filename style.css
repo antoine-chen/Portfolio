@@ -103,7 +103,7 @@ nav ul li a {
 
 /*------------------------deuxieme section -----------------------  */
 
-/* main titre du site, je me suis aider d'internet */
+/* main titre du site,internet */
 
 .titre {
     font-size: 2.5rem; 
@@ -314,12 +314,12 @@ a {
     font-weight: bold;
 }
 
-
+/* titre dans les petites box */
 .titrep {
     font-size: 1.8em;
     font-weight :bolder;
     color: gray;
-    margin: 70px 50px 30px 50px;
+    margin: 100px 50px 30px 200px;
 }
 
 .boxD {
@@ -338,14 +338,14 @@ a {
 .presentationP {
     display: flex;
     align-items: center;
+    justify-content: center; 
 }
 
-.descriptionP {
-    margin: 0 15px;
-}
 .descriptionP .boxD {
-    font-size: 20px;
+    font-size: 18px;
+
 }
+/*les logiciel en bas de la description*/
 .logiciel {
     display: flex;
     margin: 30px;
@@ -497,7 +497,8 @@ a {
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px;
 }
-
+/*----------------------fonctionnalités---------------------------------------*/
+/* les li de la section des fontionnalités principales*/
 .fonc {
     display: flex;
     flex-direction: column-reverse;
@@ -506,7 +507,7 @@ a {
     margin: 20px 40px;
 }
 .fonc ul li {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .fonD {
@@ -524,12 +525,13 @@ a {
     display: flex;
     justify-content:center;
 }
+/*----------------------apprentissage---------------------------------------*/
 .gain {
     display: flex;
     flex-direction: column-reverse;
 }
 .gain ul li {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .gain .imgPG {
@@ -543,6 +545,10 @@ a {
     font-weight: 800;
 }
 
+/*phrase du lien github */
+.lien p {
+    font-size: 18px;
+}
 .lien {
     margin: 50px;
     font-weight: bold;
@@ -550,16 +556,12 @@ a {
     font-size: medium;
 }
 
-.lien p {
-    font-size: 18px;
-}
 .lien span {
     font-weight: bold;
     font-family: "Anton", serif;
     font-weight: 200;
     color: aqua;
 }
-
 
 
 /*------------------------footer -----------------------  */

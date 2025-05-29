@@ -17,21 +17,21 @@ Projets : Exploration détaillée de mes réalisations avec descriptions, images
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
 
-**4 sites web :** <br>
-Un site de vente de plante -> projet personnel. <br>
-La ladding page de youtube -> projet personnel. <br>
-Une ancienne page de burger king -> projet personnel. <br>
-Un site web sur les JO 2024 -> projet BUT INFORMATIQUE S1, en groupe de 4. <br><br>
+**Sites web** :
+- **Site de vente de plantes** – projet personnel.
+- **Landing page de YouTube** – projet personnel.
+- **Ancienne page de Burger King** – projet personnel.
+- **Site web sur les JO 2024** – projet BUT informatique S1, en groupe de 4.
 
-**4 jeux en java :** <br>
-Un jeu morpion (plus difficile qu'un morpion 3x3) sur le terminal -> projet BUT informatique S1, en groupe de 2. <br>
-Un jeu Echec (sur le terminal) -> projet BUT informatique S1, en groupe de 3. <br>
-Un jeu type Terraria -> projet BUT informatique S2 groupe de 4 *(à venir en juin sur GitHub)*. <br>
-Un jeu Pokémon -> projet personnel *(à venir en juillet)*. <br>
+**Jeux en Java** :
+- **Jeu Morpion** (plus difficile qu'un 3x3, sur terminal) – projet BUT informatique S1, en groupe de 2.
+- **Jeu Échecs** (sur terminal) – projet BUT informatique S1, en groupe de 3.
+- **Jeu type Terraria** – projet BUT informatique S2, en groupe de 4 *(à venir en juin sur GitHub)*.
+- **Jeu Pokémon** – projet personnel *(à venir en juillet)*.
 
-**2 bases de données :** <br>
-Une base de données -> projet BUT informatique S1, en groupe de 3. <br>
-Une autres base de données (beaucoup plus complet) -> projet BUT informatique S1, en groupe de 3. <br>
+**Bases de données** :
+- **Base de données 1** – projet BUT informatique S1, en groupe de 3.
+- **Base de données 2** (plus complète) – projet BUT informatique S1, en groupe de 3.
 
 # 🚀 Fonctionnalités
 Interface responsive et moderne, optimisée pour une expérience utilisateur fluide. <br>

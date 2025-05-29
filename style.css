@@ -607,7 +607,7 @@ footer {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin: 30px auto;
+    margin: 30px 0;
 
 } 
 /* ------copi ------------- */

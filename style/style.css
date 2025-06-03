@@ -182,31 +182,4 @@ body {
     }
 }
 
-/* ------------------------------------------- pour le js-------------------------------------------------------------------*/
-/* Effet de scroll */
-section {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-}
-
-/* Soulignement des liens actifs */
-a.active {
-    text-decoration: underline;
-    text-decoration-color: #00ffff;
-    text-decoration-thickness: 2px;
-}
-
-/* Animation pour les liens */
-a {
-    transition: color 0.3s ease, text-decoration 0.3s ease;
-}
-
-/* Effet pour le lien "Retour" */
-.retour a.active {
-    text-decoration: underline;
-    text-decoration-color: #00ffff;
-    text-decoration-thickness: 2px;
-}
-
 

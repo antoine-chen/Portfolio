@@ -1,6 +1,7 @@
 .imgtech {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
 }
 
 .containtech {

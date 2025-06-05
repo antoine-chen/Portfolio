@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lexend:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap'); 
+
 
 /* les réglages de base  */
 * {
@@ -58,6 +60,10 @@ body {
 .boxD {
     width: 600px;
     margin: 0 50px;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
 }
 
 .projetS {
@@ -74,14 +80,10 @@ body {
     justify-content: center; 
 }
 
-.descriptionP .boxD {
-    font-size: 18px;
-
-}
 /*----------- les logiciel en bas de la description dans les box -----------*/
 .logiciel {
     display: flex;
-    margin: 30px;
+    margin: 50px;
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -247,7 +249,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 800;
+    font-weight: 550;
 }
 
 .fonD ul {
@@ -263,6 +265,13 @@ body {
     display: flex;
     flex-direction: column-reverse;
 }
+
+.gain ul {
+    text-align: center;
+    margin: 15px;
+    font-weight: 800;
+}
+
 .gain ul li {
     font-size: 15px;
 }
@@ -270,12 +279,6 @@ body {
 .gain .imgPG {
     display: flex;
     justify-content: center;
-}
-
-.gain ul {
-    text-align: center;
-    margin: 20px;
-    font-weight: 800;
 }
 
 /*phrase du lien github */

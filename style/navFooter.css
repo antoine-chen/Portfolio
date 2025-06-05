@@ -1,24 +1,30 @@
 /*-------------------------------------------------navbar du site ---------------------------------------------------------------------  */
 
 .logo {
-    margin-left: 20px;
-    font-weight: bold;
-    font-family: "Anton", serif;
-    font-weight: 600;
-}
-
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    color: #ffd369;
+    font-weight:900;
+  }
+  
+  .logo span {
+    color: #f4f4f4;
+    font-weight:700;
+  }
+  
 .contactlogo {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
     background-color: #343f56; 
-    padding: 20px 10PX;
-    font-size:larger;
+    padding: 20px 50px;
+    font-size:20px;
 
 }
 nav ul {

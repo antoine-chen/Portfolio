@@ -225,12 +225,20 @@ body {
 
 /* deuxieme partie de la des pages projets */
 
+/* img de la partie fonctionnalités principales */
 .projetSDeux {
     height: 300px;
     width: 500px;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px;
+}
+/* c'est pareil que projetSDeux mais juste en plus petit et sans box shadow */
+.miniProjetSDeux {
+    height: 200px;
+    width: 400px;
+    margin: 10px 5px;
+    border-radius: 10px;
 }
 /*------------------------------------------------- fonctionnalités -------------------------------------------------------------------*/
 /* les li de la section des fontionnalités principales*/

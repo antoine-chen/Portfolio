@@ -1,0 +1,39 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Système
+.DS_Store
+Thumbs.db
+
+# Node / npm (si tu utilises des dépendances)
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
+
+# Cache
+.cache/
+.tmp/
+*.tmp
+
+# IDE / éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Autres fichiers perso
+.env
+

@@ -14,9 +14,10 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+/*taille de l'image dans les box à coté de la description (projetScreen) */
 .projetS {
-    height: 400px;
-    width: 600px;
+    height: 500px;
+    width: 700px;
     margin: 20px 50px 20px 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px;

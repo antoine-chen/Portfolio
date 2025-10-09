@@ -28,15 +28,15 @@
     justify-content:center;
 }
 
-/* img de la partie fonctionnalités principales */
+/* img dans la box section fonctionnalités  */
 .projetSDeux {
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 400px;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px;
 }
-/* c'est les images en plus (que j'ai mis dans le jo.html */
+/* c'est les images en plus (que j'ai mis dans le jo.html) */
 .miniProjetSDeux {
     height: 200px;
     width: 400px;

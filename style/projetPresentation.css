@@ -5,6 +5,12 @@ body {
 
 /*----------- les logiciels (img ) à coté de la description du projet dans les box -----------*/
 
+.imgtech {
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+}
+
 .boxD {
     width: 600px;
     margin: 0 50px;
@@ -16,8 +22,8 @@ body {
 
 /*taille de l'image dans les box à coté de la description (projetScreen) */
 .projetS {
-    height: 500px;
-    width: 700px;
+    height: 425px;
+    width: 625px;
     margin: 20px 50px 20px 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 2px 1px;

@@ -1,0 +1,66 @@
+/*-------------------------------------------- fonctionnalités ---------------------------------------------------------*/
+
+/* les li de la section des fontionnalités principales*/
+.fonc {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.fonc ul {
+    margin: 20px 40px;
+}
+.fonc ul li {
+    font-size: 17px;
+}
+
+.fonD {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+}
+
+.fonD ul {
+    width: 700px;
+}
+
+.imgPF {
+    display: flex;
+    justify-content:center;
+}
+
+/* img de la partie fonctionnalités principales */
+.projetSDeux {
+    height: 300px;
+    width: 500px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px;
+}
+/* c'est les images en plus (que j'ai mis dans le jo.html */
+.miniProjetSDeux {
+    height: 200px;
+    width: 400px;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+
+/*--------------------------------------------- apprentissage -----------------------------------------------------------*/
+.gain {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.gain ul {
+    text-align: center;
+    margin: 15px;
+    font-weight: 800;
+}
+
+.gain ul li {
+    font-size: 15px;
+}
+
+.gain .imgPG {
+    display: flex;
+    justify-content: center;
+}

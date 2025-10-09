@@ -1,0 +1,197 @@
+/* responsive nav de la page principale */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+
+/* responsive premiere page dans la section about me */
+@media screen and (max-width: 768px) {
+    .aboutme {
+        flex-direction: column;
+        text-align: center;
+    }
+    .tete {
+        width: 250px;
+        height: 250px;
+    }
+    .about-me p {
+        font-size: 0.9rem;
+    }
+}
+
+/* responsive dans les images projets */
+@media screen and (max-width: 950px) {
+    .containProjets {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .projetBox {
+        width: 100%;
+        max-width: 280px;
+        height: 180px;
+    }
+    .projetBox p {
+        font-size: 18px;
+        padding: 5px 10px;
+    }
+}
+
+/* responsive des projets box */
+@media screen and (max-width: 600px) {
+    .containProjets {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* responsive dans les projets box */
+@media screen and (max-width: 1350px) {
+    .presentationP {
+        display: flex;
+    }
+
+    .descriptionP .boxD {
+        max-width: 550px;
+    }
+
+    .projetS {
+        height: 400px;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    /* deuxieme partie des projets box */
+
+    .fonc , .gain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fonD ul, .gain ul li {
+        text-align: center;
+        font-size: 15px;
+        max-width: 600px;
+    }
+
+    .imgPF .projetSDeux, .imgPG .projetSDeux, .fonD .projetSDeux  {
+        height: 300px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .presentationP {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descriptionP .boxD {
+        max-width: 450px;
+    }
+
+    .projetS {
+        height: 350px;
+        width: 550px;
+        margin: 0 auto;
+    }
+
+    /* deuxieme partie des projets box */
+
+    .fonc , .gain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fonc .fonD, .fonc .imgPF, .gain .imgPG  {
+        display: flex;
+        flex-direction: column;
+    }
+    .fonD ul, .gain ul li {
+        text-align: center;
+        font-size: 15px;
+        max-width: 600px;
+    }
+
+    .imgPF .projetSDeux, .imgPG .projetSDeux, .fonD .projetSDeux  {
+        height: 300px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .titrep {
+        font-size: 22px;
+        margin: 30px 0;
+        text-align: center;
+    }
+    .presentationP {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .descriptionP .boxD {
+        max-width: 270px;
+        font-size: 14px;
+    }
+    .projetS {
+        height: 200px;
+        width: 320px;
+        margin: 0 auto;
+    }
+    .logiciel {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .logiciel div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* deuxieme partie des projets box */
+
+    .fonc , .gain {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fonc .fonD, .fonc .imgPF, .gain .imgPG  {
+        display: flex;
+        flex-direction: column;
+    }
+    .fonD ul , .gain ul  {
+        text-align: center;
+        max-width: 280px;
+        font-weight: normal;
+    }
+    .fonD .sizeD li , .gain .sizeD li{
+        font-size: 14px;
+    }
+
+    .imgPF .projetSDeux, .imgPG .projetSDeux, .fonD .projetSDeux  {
+        height: 150px;
+        width: 300px;
+    }
+}
+
+/* responsive du footer */
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .logof {
+        margin: 30px;
+    }
+}

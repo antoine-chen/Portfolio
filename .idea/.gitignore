@@ -37,3 +37,7 @@ build/
 # Autres fichiers perso
 .env
 
+# Node / npm
+node_modules/
+package-lock.json
+

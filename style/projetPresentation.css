@@ -1,0 +1,41 @@
+
+body {
+    background-color: #1d212a;
+}
+
+/*----------- les logiciels (img ) à coté de la description du projet dans les box -----------*/
+
+.boxD {
+    width: 600px;
+    margin: 0 50px;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+}
+
+.projetS {
+    height: 400px;
+    width: 600px;
+    margin: 20px 50px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px;
+}
+
+.presentationP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logiciel {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.logiciel p {
+    text-align: center;
+    font-weight:800;
+}

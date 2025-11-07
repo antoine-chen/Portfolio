@@ -2,38 +2,48 @@
 /* contient les projets de chaque catégorie de projet dev, web, bd */
 
 .containProjets {
-    margin:100px;
-    display: flex;
-    gap: 50px;
-    justify-content: center;
+    margin: 60px auto;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
     align-items: center;
+    max-width: 1200px;
+    padding: 0 20px;
 }
 
-.containProjets img {
-    width: 100%;
-    max-width: 280px;
-    height: 180px;
-}
-
+/* --- Cartes de projets --- */
 .projetBox {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     background-size: cover;
     background-position: center;
-    opacity: 0.85;
-    border-radius: 5px;
-    box-shadow: 4px 4px 15px 3px;
+    opacity: 0.9;
+    border-radius: 10px;
     width: 100%;
     max-width: 280px;
     height: 180px;
+    box-shadow: 4px 4px 15px 3px;
+}
+
+
+.imgP {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .projetBox p {
-    font-size: 25px;
-    padding: 8px 15px;
-    font-weight: bold;
     position: absolute;
+    bottom: 10px;
+    background: rgba(255, 255, 255, 0.85);
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px 10px;
     border-radius: 5px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }

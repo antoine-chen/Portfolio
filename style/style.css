@@ -43,7 +43,7 @@ body {
 .imgtech {
     height: 70px;
     width: 70px;
-    object-fit: contain;
+    object-fit: contain; /* avoir une belle image */
 }
 /* dans la page principal liste des techs */
 .technologies {

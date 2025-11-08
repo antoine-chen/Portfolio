@@ -4,7 +4,7 @@ tablette  -> @media (min-width: 601px) and (max-width: 1024px)
 pc        -> @media (min-width: 1025px)
 */
 
-/* responsive titre et police size */
+/* responsive titre et police size et taille police de la nav */
 
 @media (max-width: 600px) {
     .titre {
@@ -15,8 +15,9 @@ pc        -> @media (min-width: 1025px)
         font-size: 25px;
         margin: 40px 20px 20px 40px;
     }
-    p {
-        font-size: 18px;
+    .lien p{
+        font-weight: normal;
+        font-size: 15px;
     }
 }
 
@@ -34,7 +35,7 @@ pc        -> @media (min-width: 1025px)
 }
 
 /* responsive nav de la page principale */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 789px) {
     nav {
         flex-direction: column;
         align-items: center;
@@ -45,13 +46,14 @@ pc        -> @media (min-width: 1025px)
         gap: 20px;
         text-align: center;
         padding: 10px 0;
+        font-size: 15px;
     }
 }
 
 /* responsive premiere page dans la section about me */
 @media screen and (max-width: 768px) {
     .aboutme {
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
     }
     .tete {
@@ -59,7 +61,7 @@ pc        -> @media (min-width: 1025px)
         height: 250px;
     }
     .about-me p {
-        font-size: 0.9rem;
+        font-size: 20px;
     }
 }
 
@@ -214,6 +216,10 @@ pc        -> @media (min-width: 1025px)
     .slider-1 img {
         width: 300px;
         height: 200px;
+    }
+    .feature-content ul li {
+        font-size: 13px;
+        font-weight: normal;
     }
 }
 

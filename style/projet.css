@@ -99,3 +99,7 @@ body {
     100% { transform: translateX(-400%); }
 }
 
+.feature-content ul li {
+    font-size: 15px;
+    font-weight: bold;
+}

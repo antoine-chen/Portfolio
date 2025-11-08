@@ -66,8 +66,9 @@
     }
 }
 
-.titrep, .titremainProjet {
+.titrep {
     font-weight: bolder;
+    font-size: 25px ;
     color: gray;
     margin: 80px 40px 30px 90px;
 }

@@ -1,0 +1,116 @@
+
+body {
+    background-color: #1d212a;
+}
+
+/*----------- les logiciels (img ) à coté de la description du projet dans les box -----------*/
+
+.imgtech {
+    height: 70px;
+    width: 70px;
+    object-fit: contain;
+}
+
+.boxD {
+    width: 600px;
+    margin: 0 50px;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+}
+
+/*taille de l'image dans les box à coté de la description (projetScreen) */
+.projetS {
+    height: 425px;
+    width: 625px;
+    margin: 20px 50px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px;
+}
+
+.presentationP {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*les logiciels que j'ai utilisé pour un projet*/
+.logiciel {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.logiciel p {
+    text-align: center;
+    font-weight:800;
+}
+
+/*-------------------------------------------- fonctionnalités ---------------------------------------------------------*/
+
+/* les li de la section des fontionnalités principales*/
+.fonc {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.fonc ul {
+    margin: 20px 40px;
+}
+.fonc ul li {
+    font-size: 17px;
+}
+
+.fonD {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+}
+
+.fonD ul {
+    width: 700px;
+}
+
+.imgPF {
+    display: flex;
+    justify-content:center;
+}
+
+/* img dans la box section fonctionnalités  */
+.projetSDeux {
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px;
+}
+/* c'est les images en plus (que j'ai mis dans le jo.html) */
+.miniProjetSDeux {
+    height: 200px;
+    width: 400px;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+
+/*--------------------------------------------- apprentissage -----------------------------------------------------------*/
+.gain {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.gain ul {
+    text-align: center;
+    margin: 15px;
+    font-weight: 800;
+}
+
+.gain ul li {
+    font-size: 15px;
+}
+
+.gain .imgPG {
+    display: flex;
+    justify-content: center;
+}

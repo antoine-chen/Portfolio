@@ -1,3 +1,4 @@
+/*----------- style dans les boxs projets, presentation etc.. -----------*/
 
 body {
     background-color: #1d212a;
@@ -21,7 +22,7 @@ body {
 }
 
 /*taille de l'image dans les box à coté de la description (projetScreen) */
-.projetS {
+.imgPresentation {
     height: 425px;
     width: 625px;
     margin: 20px 50px 20px 20px;
@@ -48,69 +49,53 @@ body {
     font-weight:800;
 }
 
-/*-------------------------------------------- fonctionnalités ---------------------------------------------------------*/
+/*-------------------------------------- fonctionnalités, apprentissage---------------------------------------------------------*/
 
-/* les li de la section des fontionnalités principales*/
-.fonc {
-    display: flex;
-    flex-direction: column-reverse;
-}
-.fonc ul {
-    margin: 20px 40px;
-}
-.fonc ul li {
-    font-size: 17px;
+.feature-section {
+    margin: 0 auto;
+    max-width: 900px;
+    max-height: 400px;
+    padding: 0 20px;
 }
 
-.fonD {
+.feature-content {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    font-weight: 550;
+    gap: 40px;
 }
 
-.fonD ul {
-    width: 700px;
+.feature-content ul {
+    flex: 1;
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
 }
 
-.imgPF {
+.slider-container {
+    max-width: 400px;
+    overflow: hidden;
+}
+
+.slider-1 .slider {
     display: flex;
-    justify-content:center;
+    animation: slider-1 12s infinite ease-in-out;
 }
 
-/* img dans la box section fonctionnalités  */
-.projetSDeux {
-    height: 200px;
+.slider-1 img {
     width: 400px;
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px 1px;
+    height: 300px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
-/* c'est les images en plus (que j'ai mis dans le jo.html) */
-.miniProjetSDeux {
-    height: 200px;
-    width: 400px;
-    margin: 10px 5px;
-    border-radius: 10px;
-}
-
-/*--------------------------------------------- apprentissage -----------------------------------------------------------*/
-.gain {
-    display: flex;
-    flex-direction: column-reverse;
+/*changement 5%, pause 20%*/
+@keyframes slider-1 {
+    0%, 20% { transform: translateX(0); }
+    25%, 45% { transform: translateX(-100%); }
+    50%, 70% { transform: translateX(-200%); }
+    75%, 95% { transform: translateX(-300%); }
+    100% { transform: translateX(-400%); }
 }
 
-.gain ul {
-    text-align: center;
-    margin: 15px;
-    font-weight: 800;
-}
-
-.gain ul li {
-    font-size: 15px;
-}
-
-.gain .imgPG {
-    display: flex;
-    justify-content: center;
-}

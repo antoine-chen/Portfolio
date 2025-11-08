@@ -55,13 +55,6 @@
     animation: fadeInSlideRotate 0.7s ease-out forwards,
     pulseGlow 2.5s infinite alternate ease-in-out;
 }
-
-.titrep, .titremainProjet {
-    font-weight: bolder;
-    color: gray;
-    margin: 80px 40px 30px 90px;
-}
-
 @keyframes pulseGlow {
     0% {
         text-shadow: 0 0 10px rgba(77, 242, 215, 0.5),
@@ -72,6 +65,13 @@
         0 0 30px rgba(74, 20, 140, 0.7);
     }
 }
+
+.titrep, .titremainProjet {
+    font-weight: bolder;
+    color: gray;
+    margin: 80px 40px 30px 90px;
+}
+
 /* titre projet, web projet, dev, projet bd*/
 .titremainProjet {
     color: #ffffff;

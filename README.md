@@ -1,3 +1,6 @@
+# 🌐  Hébergement en ligne
+## Voici le lien du portfolio et le code ci dessus : https://antoine-chen.github.io/Portfolio/
+
 # 🌟 Portfolio - Antoine CHEN
 
 Bienvenue sur mon portfolio ! Ce site a été conçu pour présenter mon parcours, mes compétences et mes projets en développement web et logiciel. Il met en avant mon savoir-faire en HTML, CSS et JavaScript, ainsi que mon expérience avec diverses technologies utilisées dans mes réalisations.
@@ -52,5 +55,3 @@ GitHub Pages : Hébergement du site en ligne. <br>
 
 2. Ouvrir le fichier index.html dans ce dossier 
 
-# 🌐  Hébergement en ligne
-## Voici le lien du portfolio et le code ci dessus : https://antoine-chen.github.io/Portfolio/
